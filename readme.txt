@@ -1,0 +1,1 @@
+Menambah fitur 2x game speed(Script : LevelManager)
