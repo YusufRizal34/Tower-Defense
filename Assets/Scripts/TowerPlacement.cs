@@ -5,7 +5,7 @@ using UnityEngine;
 public class TowerPlacement : MonoBehaviour
 {
     private Tower _placedTower;
-    private int _towerTotal = 1;
+    public int _towerTotal = 1;
 
     // Fungsi yang terpanggil sekali ketika ada object Rigidbody yang menyentuh area collider
     private void OnTriggerEnter2D (Collider2D collision)
@@ -17,7 +17,7 @@ public class TowerPlacement : MonoBehaviour
 
         Tower tower = collision.GetComponent<Tower> ();
 
-        if (tower != null && _towerTotal > 0)
+        if (tower != null)
         {
             tower.SetPlacePosition (transform.position);
             _placedTower = tower;

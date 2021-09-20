@@ -70,7 +70,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 44f9cc5500562cd44829c1b11c5b584a, type: 3}
   m_Color: {r: 0, g: 1, b: 0.2636087, a: 1}
   m_FlipX: 0
@@ -153,7 +153,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 44f9cc5500562cd44829c1b11c5b584a, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -265,3 +265,4 @@ MonoBehaviour:
   _moveSpeed: 5
   _healthBar: {fileID: 1594456764049304880}
   _healthFill: {fileID: 3191750769916031803}
+  _currentHealth: 0

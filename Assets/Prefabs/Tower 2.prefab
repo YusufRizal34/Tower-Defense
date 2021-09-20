@@ -17,7 +17,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 534274823982372453, guid: 19b31981c01d435498b0838f685e95ba, type: 3}
       propertyPath: _shootPower
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 534274823982372453, guid: 19b31981c01d435498b0838f685e95ba, type: 3}
       propertyPath: _shootDistance
